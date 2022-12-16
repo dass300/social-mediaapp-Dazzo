@@ -1,14 +1,22 @@
 import React from "react";
 import "./Topbar.css";
+import {Link} from 'react-router-dom'
 
 import { Search, Person, Chat, Notifications } from "@mui/icons-material";
 
+
 function Topbar() {
+  const PF = process.env.REACT_APP_PUBLIC_FOLDER
+
+  
+  
   return (
     <div className="topbarContainer">
 
       <div className="topbarLeft">
+        <Link to="/" style =  {{textDecoration:"none"}} >
         <span className="logo">Dazzo</span>
+        </Link>
       </div>
 
       <div className="topbarCenter">
@@ -48,7 +56,7 @@ function Topbar() {
 
         </div>
               
-        <img src="./assets/person/1.jpeg" alt="person1" className="topbarImg" />
+        <img src= {`${PF}person/1.jpeg`} alt="person1" className="topbarImg" />
      
       </div>
 
