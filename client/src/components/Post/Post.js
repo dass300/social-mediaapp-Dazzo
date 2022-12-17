@@ -40,6 +40,7 @@ function Post({post}) {
             <div className="postBottom">
                 <div className="postBottomLeft">
                     <ThumbUpRounded htmlColor="DodgerBlue" className="likeIcon" onClick={likeHandler}/>
+                    {/* <ThumbUpRounded htmlColor="DodgerBlue" className="likeIcon" onClick={likeHandler}/> */}
                     {/* <img src="./assets/like.png" alt="" className="likeIcon" onClick={likeHandler} /> */}
                     <FavoriteRounded htmlColor="Tomato" className="likeIcon" onClick={likeHandler}/>
                     {/* <img src="./assets/heart.png" alt="" className="likeIcon" onClick={likeHandler} /> */}
