@@ -8,7 +8,7 @@ const Online = ({user}) => {
     <div>
          <li className="rightbarFriend">
           <div className="rightbarProfileImgContainer">
-            <img src={PF+ user.profilePicture} alt="" className="rightbarprofileImg" />
+            <img src={PF+user.profilePicture} alt="" className="rightbarprofileImg" />
             <span className="rightbarOnline"></span>
           </div>
           <span className="rightbarUsername">{user.username}</span>

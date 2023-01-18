@@ -32,7 +32,7 @@ function Post({post}) {
 
             <div className="postCenter">
                 <span className="postText">{post?.desc} </span>
-                <img src={PF+post.photo} alt="" className="postImg" />
+                <img src={PF+post.photo} alt="/" className="postImg" />
 
             </div>
 

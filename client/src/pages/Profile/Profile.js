@@ -19,7 +19,7 @@ const Profile = () => {
             <div className="profileCover">
               <img
                 src={`${PF}cover2.jpg`}
-                alt=""
+                alt="/"
                 className="profileCoverImg"
               />
               <img
@@ -29,7 +29,7 @@ const Profile = () => {
               />
             </div>
             <div className="profileInfo">
-              <h4 className="profileName">Ronaldo</h4>
+              <h4 className="profileName">Regu</h4>
               <span className="profileDesc">Hello Dears...</span>
             </div>
           </div>
